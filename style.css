@@ -58,7 +58,7 @@
     transition: all 150ms ease-in-out;
 }
 .box:hover{ 
-    background-color: rgb(242, 234, 250);
+    background-color: rgb(150, 124, 175);
 }
 
 .box1,.box2,.box5,.box4{
