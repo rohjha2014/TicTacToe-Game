@@ -75,7 +75,7 @@ function checkGameOver() {
     });
 
     if (winner !== "") {
-        gameInfo.textContent = `Winner is - ${winner}`;
+        gameInfo.textContent = `Winner is  ${winner}`;
         newGameBtn.classList.add("active");
         gameover.play();
         return;
@@ -91,7 +91,7 @@ function checkGameOver() {
     });
 
     if (fillCount === 9) {
-        gameInfo.textContent = "Game Tied !";
+        gameInfo.textContent = "Game Tied";
         newGameBtn.classList.add("active");
     }
 }
